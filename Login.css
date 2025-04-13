@@ -1,0 +1,18 @@
+.form-container {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Max width for the form */
+    padding: 20px; /* Padding around the form */
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+.btn-create-account {
+    margin-top: 20px; /* Space above the create account link */
+}
+
+body{
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Color gradient background */
+
+}

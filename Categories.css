@@ -1,0 +1,97 @@
+
+.category {
+    width: 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+body{
+    background: linear-gradient(135deg, #323035, #2d2c2f); /* Color gradient background */
+
+}
+.category:hover {
+    transform: scale(0.98,0.98);
+}
+.category-1 {
+    background-image: url(../Images/heroimgbd.jpg); /* Blue */
+}
+.category-2 {
+    background-image: url(../Images/heroimgad.jpg); /* Red */
+}
+.category-3 {
+    background-image: url(../Images/heroimgbp.jpg); /* Green */    
+}
+
+.navbar-nav {
+    margin-left: auto; /* Pushes the nav items to the right */
+}
+
+
+.nav-link {
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
+    margin-left: 10px; /* Space between the links */
+}
+
+.nav-link:hover {
+    color: white; /* Change text color on hover */
+    background-color: #28a745; /* Change background color on hover */
+}
+
+.btn-outline-success {
+    margin-left: 10px; /* Space between the button and nav links */
+}
+
+.navbar-brand {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Colorful gradient */
+    background-clip: text; /* Clip background to text */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
+    font-weight: bold; /* Make brand name bold */
+}
+
+body {
+    margin: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack items vertically */
+}
+.category {
+    flex: 1; /* Each box takes equal space */
+    display: flex; /* Use Flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: rgb(23, 21, 21); /* Text color */
+    font-size: 2rem; /* Font size */
+    text-align: center; /* Center text */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+    background-size: cover; /* Cover the entire box */
+    background-position: center; /* Center the background image */
+}
+.category-1 {
+    background-image: url(../Images/heroimgbd.jpg); /* Blue */
+}
+.category-2 {
+    background-image: url(../Images/heroimgad.jpg); /* Red */
+}
+.category-3 {
+    background-image: url(../Images/heroimgbp.jpg); /* Green */
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+    padding: 40px 0; /* Padding for the footer */
+}
+.footer a {
+    color: #ffffff; /* White links */
+}
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.map-container {
+    margin-top: 20px; /* Space above the map */
+}
